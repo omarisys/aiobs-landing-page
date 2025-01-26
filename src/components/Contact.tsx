@@ -106,7 +106,7 @@ export function Contact() {
                   </div>
                   <div>
                     <p className="text-sm text-gray-400">Téléphone</p>
-                    <p>+33 1 23 45 67 89</p>
+                    <p>+212 6 61 80 92 23</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4 text-gray-300">
@@ -115,7 +115,7 @@ export function Contact() {
                   </div>
                   <div>
                     <p className="text-sm text-gray-400">Adresse</p>
-                    <p>Paris, France</p>
+                    <p>Rabat, Morocco</p>
                   </div>
                 </div>
               </div>

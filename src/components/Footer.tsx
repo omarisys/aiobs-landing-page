@@ -24,8 +24,8 @@ const navigation = {
 
 const contactInfo = [
   { icon: Mail, text: 'contact@aiobs.com' },
-  { icon: Phone, text: '+33 1 23 45 67 89' },
-  { icon: MapPin, text: 'Paris, France' },
+  { icon: Phone, text: '+212 6 61 80 92 23' },
+  { icon: MapPin, text: 'Rabat, Morocco' },
 ];
 
 const socialLinks = [
@@ -99,7 +99,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} AIOBS. Tous droits réservés.
+            {new Date().getFullYear()} AIOBS. Tous droits réservés.
           </div>
           <div className="flex gap-6">
             {socialLinks.map((item) => (
